@@ -19,7 +19,7 @@ dependencies:
   esp-idf-lib/esp_idf_lib_helpers:
     version: "*"
 maintainers:
-  -
+  - Jakub Turek (@QB4-dev)
 url: https://github.com/esp-idf-lib/core
 repository: https://github.com/esp-idf-lib/pca9632
 documentation: https://esp-idf-lib.github.io/pca9632/
