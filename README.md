@@ -11,7 +11,7 @@ Driver for PCA9632 4-channel PWM chip.
 ## Installation
 
 ```sh
-idf.py add-dependency "esp-idf-lib/pca9632^1.0.0
+idf.py add-dependency esp-idf-lib/pca9632^1.0.0
 ```
 
 ## Support
