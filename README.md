@@ -1,5 +1,9 @@
 # esp-idf-lib/pca9632
 
+[![Build examples](https://github.com/esp-idf-lib/pca9632/actions/workflows//build.yml/badge.svg)](https://github.com/esp-idf-lib/pca9632/actions/workflows//build.yml)
+[![Build docs](https://github.com/esp-idf-lib/pca9632/actions/workflows//build-docs.yml/badge.svg)](https://github.com/esp-idf-lib/pca9632/actions/workflows//build-docs.yml)
+[![Validation](https://github.com/esp-idf-lib/pca9632/actions/workflows//validate-component.yml/badge.svg)](https://github.com/esp-idf-lib/pca9632/actions/workflows//validate-component.yml)
+
 Driver for PCA9632 4-channel PWM chip.
 
 * [Documentation](https://esp-idf-lib.github.io/pca9632/)
@@ -11,7 +15,7 @@ Driver for PCA9632 4-channel PWM chip.
 ## Installation
 
 ```sh
-idf.py add-dependency esp-idf-lib/pca9632^1.0.0
+idf.py add-dependency esp-idf-lib/pca9632
 ```
 
 ## Support
