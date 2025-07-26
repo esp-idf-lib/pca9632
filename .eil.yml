@@ -1,6 +1,6 @@
 name: pca9632
 description: Driver for PCA9632 4-channel PWM chip
-version: 1.0.0
+version: 1.0.1
 groups:
   - led
 code_owners: 
