@@ -50,7 +50,8 @@ extern "C" {
 #define PCA9632_I2C_ADDR 0x62 ///< I2C address for PCA9632
 
 // Auto-Increment options (page 10, table 6)
-typedef enum {
+typedef enum
+{
     AI_DISABLED,    //!< no Auto-Increment
     AI_ALL,         //!< Auto-Increment for all registers
     AI_INDIV,       //!< Auto-Increment for Individual brightness registers only
@@ -59,24 +60,28 @@ typedef enum {
 } pca9632_autoincr_mode_t;
 
 // Group control options (page 10, table 6)
-typedef enum {
+typedef enum
+{
     GROUP_CONTROL_MODE_BLINKING, //!< group blink control
     GROUP_CONTROL_MODE_DIMMING   //!< group dimming control
 } pca9632_gcm_t;
 
-typedef enum {
+typedef enum
+{
     OUTDRV_OPEN_DRAIN = 0, //!< open-drain output
     OUTDRV_TOTEM_POLE = 1  //!< totem-pole output
 } pca9632_outdrv_t;
 
-typedef enum {
+typedef enum
+{
     LED0 = 0, //!< LED0 PWM output
     LED1 = 1, //!< LED1 PWM output
     LED2 = 2, //!< LED2 PWM output
     LED3 = 3, //!< LED3 PWM output
 } pca9632_led_t;
 
-typedef enum {
+typedef enum
+{
     LDR_OFF = 0x00,       //!< LED driver x is off (default power-up state)
     LDR_ON = 0x01,        //!< LED driver x is fully on (individual brightness and group dimming/blinking not controlled)
     LDR_INDIV = 0x02,     //!< LED driver x individual brightness can be controlled through its PWMx register
